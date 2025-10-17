@@ -14,9 +14,48 @@
       "y": 0.5,
       "uniqueID": "7e0e7434-b9ba-4065-b974-39b0c4a85ca1",
       "ioValues": []
+    },
+    {
+      "atomType": "RegularPolygon",
+      "name": "RegularPolygon",
+      "x": 0.3122977346278317,
+      "y": 0.7422434367541766,
+      "uniqueID": "6287e770-e7c9-4b3f-acc2-fa07606ea7e0",
+      "ioValues": [
+        {
+          "name": "number of sides",
+          "ioValue": 3,
+          "currentEquation": "3"
+        },
+        {
+          "name": "diameter",
+          "ioValue": 10,
+          "currentEquation": "10"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.39374325782092773,
+      "y": 0.7589498806682577,
+      "uniqueID": "a70aa4e9-fe34-40b3-99d9-a44f18dd5626",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "6287e770-e7c9-4b3f-acc2-fa07606ea7e0",
+      "ap2ID": "a70aa4e9-fe34-40b3-99d9-a44f18dd5626"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "compiledBom": {},
