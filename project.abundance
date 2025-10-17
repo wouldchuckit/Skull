@@ -1,15 +1,24 @@
 {
-    "atomType": "Molecule",
-    "name": "Skull",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "45c47fe6-d8da-4cdb-a6d2-b65d9f78f880",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "Skull",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "45c47fe6-d8da-4cdb-a6d2-b65d9f78f880",
+  "ioValues": [],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "7e0e7434-b9ba-4065-b974-39b0c4a85ca1",
+      "ioValues": []
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "compiledBom": {},
+  "filetypeVersion": 1
 }
