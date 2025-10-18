@@ -59,6 +59,23 @@
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "Rectangle",
+      "name": "Rectangle",
+      "x": 0.6623516720604099,
+      "y": 0.3054892601431981,
+      "uniqueID": "b6af022d-f744-4c54-8818-1a910872f041",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
