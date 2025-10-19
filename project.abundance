@@ -18,8 +18,8 @@
     {
       "atomType": "Molecule",
       "name": "Panel and cutter",
-      "x": 0.11003236245954692,
-      "y": 0.302540415704388,
+      "x": 0.10841423948220064,
+      "y": 0.648960739030023,
       "uniqueID": "16e4da45-3f9f-4c5e-a888-96310f1fd3e1",
       "ioValues": [],
       "topLevel": false,
@@ -79,13 +79,93 @@
           ]
         },
         {
-          "atomType": "ExtractTag",
-          "name": "Extract Tag",
-          "x": 0.41585760517799353,
-          "y": 0.3140877598152425,
-          "uniqueID": "73418b3c-ec05-474b-8fe0-3b9621ff0cbf",
+          "atomType": "Tag",
+          "name": "Panel",
+          "x": 0.42664509169363535,
+          "y": 0.18244803695150116,
+          "uniqueID": "43121fe8-3d01-4b8f-8fc6-181d3ad16adc",
           "ioValues": [],
-          "tagIndex": 0
+          "tags": [
+            "Panel"
+          ]
+        },
+        {
+          "atomType": "Tag",
+          "name": "cutter",
+          "x": 0.44390507011866237,
+          "y": 0.6466512702078522,
+          "uniqueID": "cf6a88b4-14e1-47f3-836d-9420f0cec681",
+          "ioValues": [],
+          "tags": [
+            "cutter"
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "name": "Assembly",
+          "x": 0.5258899676375405,
+          "y": 0.3579676674364896,
+          "uniqueID": "a6e45629-7241-4488-9b97-a9824d35ca86",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": {
+                "geometry": "extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-500",
+                "dimension": "3D",
+                "tags": [
+                  "cutter"
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": "extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
+                "dimension": "3D",
+                "tags": [
+                  "Panel"
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -100,10 +180,40 @@
           "ap2Name": "geometry",
           "ap1ID": "847e6163-6be6-4fe7-bf0d-9b906b33bcc3",
           "ap2ID": "fe9658c4-f697-415d-9d83-0dbb92128db7"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "66b2ec32-81ba-434f-b067-014cb9a87b97",
+          "ap2ID": "43121fe8-3d01-4b8f-8fc6-181d3ad16adc"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "fe9658c4-f697-415d-9d83-0dbb92128db7",
+          "ap2ID": "cf6a88b4-14e1-47f3-836d-9420f0cec681"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "Shape 2",
+          "ap1ID": "43121fe8-3d01-4b8f-8fc6-181d3ad16adc",
+          "ap2ID": "a6e45629-7241-4488-9b97-a9824d35ca86"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "Shape 1",
+          "ap1ID": "cf6a88b4-14e1-47f3-836d-9420f0cec681",
+          "ap2ID": "a6e45629-7241-4488-9b97-a9824d35ca86"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "number or geometry",
+          "ap1ID": "a6e45629-7241-4488-9b97-a9824d35ca86",
+          "ap2ID": "16e3929d-c123-4a90-b869-6ccf6765bc9a"
         }
       ],
       "fileTypeVersion": 1,
-      "compiledBom": {}
+      "compiledBom": []
     }
   ],
   "allConnectors": [],
