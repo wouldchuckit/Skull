@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "panel thick",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -20,6 +19,15 @@
       "y": 0.5,
       "uniqueID": "7e0e7434-b9ba-4065-b974-39b0c4a85ca1",
       "ioValues": []
+    },
+    {
+      "atomType": "Input",
+      "name": "panel thick",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
+      "uniqueID": "4e6a96e0-67c9-4037-8c61-bba41b868e0a",
+      "ioValues": [],
+      "type": "number"
     },
     {
       "atomType": "Molecule",
@@ -52,13 +60,11 @@
           "ioValues": [
             {
               "name": "number of sides",
-              "ioValue": 6,
-              "currentEquation": "6"
+              "ioValue": 6
             },
             {
               "name": "diameter",
-              "ioValue": 400,
-              "currentEquation": "400"
+              "ioValue": 400
             }
           ]
         },
@@ -84,8 +90,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 500,
-              "currentEquation": "500"
+              "ioValue": 500
             }
           ]
         },
@@ -182,7 +187,7 @@
           "atomType": "Input",
           "name": "Input (1)",
           "x": 0.025384615384615384,
-          "y": 0.4295612009237875,
+          "y": 0.15384615384615385,
           "uniqueID": "1fbfedeb-f038-4786-b5f8-b8ca00bd20c5",
           "ioValues": [],
           "type": "number"
@@ -240,15 +245,6 @@
       ],
       "fileTypeVersion": 1,
       "compiledBom": []
-    },
-    {
-      "atomType": "Input",
-      "name": "panel thick",
-      "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
-      "uniqueID": "4e6a96e0-67c9-4037-8c61-bba41b868e0a",
-      "ioValues": [],
-      "type": "number"
     }
   ],
   "allConnectors": [
