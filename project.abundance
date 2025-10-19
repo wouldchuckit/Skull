@@ -1730,8 +1730,8 @@
     {
       "atomType": "Molecule",
       "name": "orbit",
-      "x": 0.5242718446601942,
-      "y": 0.45958429561200925,
+      "x": 0.45361380798274004,
+      "y": 0.4665127020785219,
       "uniqueID": "11648e50-c5ad-4cc0-890a-934420d41105",
       "ioValues": [],
       "topLevel": false,
@@ -1747,8 +1747,8 @@
         {
           "atomType": "Circle",
           "name": "Circle",
-          "x": 0.2529665587918015,
-          "y": 0.33718244803695147,
+          "x": 0.2189859762675297,
+          "y": 0.3464203233256351,
           "uniqueID": "38ee02a9-fb1f-4e2b-b831-8a876dd53cbf",
           "ioValues": [
             {
@@ -1781,8 +1781,8 @@
           "ioValues": [
             {
               "name": "x-axis degrees",
-              "ioValue": 90,
-              "currentEquation": "90"
+              "ioValue": 100,
+              "currentEquation": "100"
             },
             {
               "name": "y-axis degrees",
@@ -1807,10 +1807,47 @@
           "ap2Name": "geometry",
           "ap1ID": "c7a1dbdd-7eff-459b-aec5-e1119298c6a4",
           "ap2ID": "35efab72-cd7f-48c8-9b83-9e6bcd3515eb"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "number or geometry",
+          "ap1ID": "35efab72-cd7f-48c8-9b83-9e6bcd3515eb",
+          "ap2ID": "6a3eed62-cedf-48f8-b4a6-b4b7e8df2d28"
         }
       ],
       "fileTypeVersion": 1,
-      "compiledBom": {}
+      "compiledBom": []
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.4741100323624596,
+      "y": 0.8891454965357968,
+      "uniqueID": "c5e6444c-10b9-4cd5-849d-ee250c495e48",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 130,
+          "currentEquation": "130"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "name": "Difference",
+      "x": 0.5237324703344121,
+      "y": 0.20092378752886836,
+      "uniqueID": "8687e318-9cd6-4508-924a-999bb617a621",
+      "ioValues": []
     }
   ],
   "allConnectors": [
@@ -1843,6 +1880,12 @@
       "ap2Name": "Shape 4",
       "ap1ID": "d2eb25fc-857e-4757-85d6-505658664101",
       "ap2ID": "d342bb19-3514-42b1-8f5a-83f3f9eeeb5d"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry1",
+      "ap1ID": "d342bb19-3514-42b1-8f5a-83f3f9eeeb5d",
+      "ap2ID": "8687e318-9cd6-4508-924a-999bb617a621"
     },
     {
       "ap1Name": "geometry",
@@ -2023,6 +2066,18 @@
       "ap2Name": "Shape 13",
       "ap1ID": "28baf5bf-6fc1-432b-a176-cedd6e6e9847",
       "ap2ID": "d342bb19-3514-42b1-8f5a-83f3f9eeeb5d"
+    },
+    {
+      "ap1Name": "geometry or number",
+      "ap2Name": "geometry",
+      "ap1ID": "11648e50-c5ad-4cc0-890a-934420d41105",
+      "ap2ID": "c5e6444c-10b9-4cd5-849d-ee250c495e48"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry2",
+      "ap1ID": "c5e6444c-10b9-4cd5-849d-ee250c495e48",
+      "ap2ID": "8687e318-9cd6-4508-924a-999bb617a621"
     }
   ],
   "unitsKey": "MM",
