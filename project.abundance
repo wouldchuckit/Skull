@@ -7,7 +7,16 @@
   "ioValues": [
     {
       "name": "panel thick",
-      "ioValue": 10
+      "ioValue": 10,
+      "currentEquation": "10"
+    },
+    {
+      "name": "T",
+      "ioValue": 1
+    },
+    {
+      "name": "c",
+      "ioValue": 1
     }
   ],
   "topLevel": true,
