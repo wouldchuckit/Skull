@@ -4,7 +4,13 @@
   "x": 0,
   "y": 0,
   "uniqueID": "45c47fe6-d8da-4cdb-a6d2-b65d9f78f880",
-  "ioValues": [],
+  "ioValues": [
+    {
+      "name": "panel thick",
+      "ioValue": 30,
+      "currentEquation": "30"
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -18,10 +24,15 @@
     {
       "atomType": "Molecule",
       "name": "Panel and cutter",
-      "x": 0.10841423948220064,
-      "y": 0.648960739030023,
+      "x": 0.13754045307443366,
+      "y": 0.7482678983833718,
       "uniqueID": "16e4da45-3f9f-4c5e-a888-96310f1fd3e1",
-      "ioValues": [],
+      "ioValues": [
+        {
+          "name": "Input (1)",
+          "ioValue": 30
+        }
+      ],
       "topLevel": false,
       "allAtoms": [
         {
@@ -60,7 +71,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 30
             }
           ]
         },
@@ -139,7 +150,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
+                "geometry": "extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30",
                 "dimension": "3D",
                 "tags": [
                   "Panel"
@@ -166,6 +177,15 @@
               }
             }
           ]
+        },
+        {
+          "atomType": "Input",
+          "name": "Input (1)",
+          "x": 0.025384615384615384,
+          "y": 0.4295612009237875,
+          "uniqueID": "1fbfedeb-f038-4786-b5f8-b8ca00bd20c5",
+          "ioValues": [],
+          "type": "number"
         }
       ],
       "allConnectors": [
@@ -210,13 +230,35 @@
           "ap2Name": "number or geometry",
           "ap1ID": "a6e45629-7241-4488-9b97-a9824d35ca86",
           "ap2ID": "16e3929d-c123-4a90-b869-6ccf6765bc9a"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "height",
+          "ap1ID": "1fbfedeb-f038-4786-b5f8-b8ca00bd20c5",
+          "ap2ID": "66b2ec32-81ba-434f-b067-014cb9a87b97"
         }
       ],
       "fileTypeVersion": 1,
       "compiledBom": []
+    },
+    {
+      "atomType": "Input",
+      "name": "panel thick",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
+      "uniqueID": "4e6a96e0-67c9-4037-8c61-bba41b868e0a",
+      "ioValues": [],
+      "type": "number"
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap1Name": "number or geometry",
+      "ap2Name": "Input (1)",
+      "ap1ID": "4e6a96e0-67c9-4037-8c61-bba41b868e0a",
+      "ap2ID": "16e4da45-3f9f-4c5e-a888-96310f1fd3e1"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "compiledBom": {},
