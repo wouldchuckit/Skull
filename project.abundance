@@ -14,6 +14,96 @@
       "y": 0.5,
       "uniqueID": "7e0e7434-b9ba-4065-b974-39b0c4a85ca1",
       "ioValues": []
+    },
+    {
+      "atomType": "Molecule",
+      "name": "Panel and cutter",
+      "x": 0.11003236245954692,
+      "y": 0.302540415704388,
+      "uniqueID": "16e4da45-3f9f-4c5e-a888-96310f1fd3e1",
+      "ioValues": [],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "16e3929d-c123-4a90-b869-6ccf6765bc9a",
+          "ioValues": []
+        },
+        {
+          "atomType": "RegularPolygon",
+          "name": "RegularPolygon",
+          "x": 0.17583603020496225,
+          "y": 0.29792147806004615,
+          "uniqueID": "847e6163-6be6-4fe7-bf0d-9b906b33bcc3",
+          "ioValues": [
+            {
+              "name": "number of sides",
+              "ioValue": 6,
+              "currentEquation": "6"
+            },
+            {
+              "name": "diameter",
+              "ioValue": 400,
+              "currentEquation": "400"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "name": "Extrude",
+          "x": 0.27993527508090615,
+          "y": 0.3672055427251732,
+          "uniqueID": "66b2ec32-81ba-434f-b067-014cb9a87b97",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "name": "Extrude",
+          "x": 0.30097087378640774,
+          "y": 0.605080831408776,
+          "uniqueID": "fe9658c4-f697-415d-9d83-0dbb92128db7",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 500,
+              "currentEquation": "500"
+            }
+          ]
+        },
+        {
+          "atomType": "ExtractTag",
+          "name": "Extract Tag",
+          "x": 0.41585760517799353,
+          "y": 0.3140877598152425,
+          "uniqueID": "73418b3c-ec05-474b-8fe0-3b9621ff0cbf",
+          "ioValues": [],
+          "tagIndex": 0
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "847e6163-6be6-4fe7-bf0d-9b906b33bcc3",
+          "ap2ID": "66b2ec32-81ba-434f-b067-014cb9a87b97"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "847e6163-6be6-4fe7-bf0d-9b906b33bcc3",
+          "ap2ID": "fe9658c4-f697-415d-9d83-0dbb92128db7"
+        }
+      ],
+      "fileTypeVersion": 1,
+      "compiledBom": {}
     }
   ],
   "allConnectors": [],
