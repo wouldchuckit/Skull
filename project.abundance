@@ -487,7 +487,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 400,
+          "currentEquation": "400"
         }
       ]
     },
@@ -926,6 +927,12 @@
       "ap2Name": "geometry",
       "ap1ID": "a7e8f093-ee45-4c5e-8869-0ad356f1a55a",
       "ap2ID": "85ab65e3-ca72-4eed-8f65-31a6913d1e0c"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "f68d4ffd-91d8-4d8a-937e-bbee485da384",
+      "ap2ID": "9a058a4a-b2c7-47b4-8289-edf56aa69ff8"
     },
     {
       "ap1Name": "geometry",
