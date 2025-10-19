@@ -1448,18 +1448,15 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -100,
-          "currentEquation": "-100"
+          "ioValue": -100
         },
         {
           "name": "yDist",
-          "ioValue": -150,
-          "currentEquation": "-150"
+          "ioValue": -150
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -2294,6 +2291,58 @@
       "ioValues": []
     },
     {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.25026968716289105,
+      "y": 0.833718244803695,
+      "uniqueID": "19aed801-6f50-4d9a-a920-df926c7651f2",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 200
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 300
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.28640776699029125,
+      "y": 0.8314087759815243,
+      "uniqueID": "a7569e86-71ea-435f-a37a-f3043e142ade",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 180
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "ExtractTag",
+      "name": "Extract Tag",
+      "x": 0.6941747572815533,
+      "y": 0.8290993071593533,
+      "uniqueID": "5a4f6b2d-8dc5-482f-b585-09a882166d1f",
+      "ioValues": [],
+      "tag": "cutter",
+      "tagIndex": 0
+    },
+    {
       "atomType": "Molecule",
       "name": "Panel and cutter",
       "x": 0.04962243797195254,
@@ -2630,8 +2679,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 180,
-              "currentEquation": "180"
+              "ioValue": 180
             }
           ]
         },
@@ -2903,64 +2951,6 @@
       ],
       "fileTypeVersion": 1,
       "compiledBom": []
-    },
-    {
-      "atomType": "Move",
-      "name": "Move",
-      "x": 0.25026968716289105,
-      "y": 0.833718244803695,
-      "uniqueID": "19aed801-6f50-4d9a-a920-df926c7651f2",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 200,
-          "currentEquation": "200"
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 300,
-          "currentEquation": "300"
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "name": "Rotate",
-      "x": 0.28640776699029125,
-      "y": 0.8314087759815243,
-      "uniqueID": "a7569e86-71ea-435f-a37a-f3043e142ade",
-      "ioValues": [
-        {
-          "name": "x-axis degrees",
-          "ioValue": 180,
-          "currentEquation": "180"
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
-        }
-      ]
-    },
-    {
-      "atomType": "ExtractTag",
-      "name": "Extract Tag",
-      "x": 0.6941747572815533,
-      "y": 0.8290993071593533,
-      "uniqueID": "5a4f6b2d-8dc5-482f-b585-09a882166d1f",
-      "ioValues": [],
-      "tag": "cutter",
-      "tagIndex": 0
     }
   ],
   "allConnectors": [
@@ -3283,6 +3273,30 @@
       "ap2ID": "7e0e7434-b9ba-4065-b974-39b0c4a85ca1"
     },
     {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "19aed801-6f50-4d9a-a920-df926c7651f2",
+      "ap2ID": "a7569e86-71ea-435f-a37a-f3043e142ade"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 15",
+      "ap1ID": "a7569e86-71ea-435f-a37a-f3043e142ade",
+      "ap2ID": "d342bb19-3514-42b1-8f5a-83f3f9eeeb5d"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "a7569e86-71ea-435f-a37a-f3043e142ade",
+      "ap2ID": "5a4f6b2d-8dc5-482f-b585-09a882166d1f"
+    },
+    {
+      "ap1Name": "output",
+      "ap2Name": "Shape 12",
+      "ap1ID": "5a4f6b2d-8dc5-482f-b585-09a882166d1f",
+      "ap2ID": "d7559d6f-08c8-4048-84df-cc4c203de5bd"
+    },
+    {
       "ap1Name": "geometry or number",
       "ap2Name": "geometry",
       "ap1ID": "16e4da45-3f9f-4c5e-a888-96310f1fd3e1",
@@ -3371,30 +3385,6 @@
       "ap2Name": "geometry",
       "ap1ID": "44c52d61-bf0d-421c-875b-ac6ee8741748",
       "ap2ID": "c8722883-f2bc-42ee-948f-af32a6cea31d"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "19aed801-6f50-4d9a-a920-df926c7651f2",
-      "ap2ID": "a7569e86-71ea-435f-a37a-f3043e142ade"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "Shape 15",
-      "ap1ID": "a7569e86-71ea-435f-a37a-f3043e142ade",
-      "ap2ID": "d342bb19-3514-42b1-8f5a-83f3f9eeeb5d"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "a7569e86-71ea-435f-a37a-f3043e142ade",
-      "ap2ID": "5a4f6b2d-8dc5-482f-b585-09a882166d1f"
-    },
-    {
-      "ap1Name": "output",
-      "ap2Name": "Shape 12",
-      "ap1ID": "5a4f6b2d-8dc5-482f-b585-09a882166d1f",
-      "ap2ID": "d7559d6f-08c8-4048-84df-cc4c203de5bd"
     }
   ],
   "unitsKey": "MM",
