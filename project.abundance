@@ -1721,8 +1721,8 @@
     {
       "atomType": "Molecule",
       "name": "orbit",
-      "x": 0.4466019417475728,
-      "y": 0.27713625866050806,
+      "x": 0.42826321467098166,
+      "y": 0.2956120092378753,
       "uniqueID": "11648e50-c5ad-4cc0-890a-934420d41105",
       "ioValues": [],
       "topLevel": false,
@@ -1744,8 +1744,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 100,
-              "currentEquation": "100"
+              "ioValue": 120,
+              "currentEquation": "120"
             }
           ]
         },
@@ -1812,8 +1812,8 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.48759439050701187,
-      "y": 0.2817551963048499,
+      "x": 0.4665587918015102,
+      "y": 0.3140877598152425,
       "uniqueID": "c5e6444c-10b9-4cd5-849d-ee250c495e48",
       "ioValues": [
         {
@@ -1836,16 +1836,16 @@
     {
       "atomType": "Difference",
       "name": "Difference",
-      "x": 0.5771305285868393,
-      "y": 0.18937644341801385,
+      "x": 0.505933117583603,
+      "y": 0.19630484988452657,
       "uniqueID": "8687e318-9cd6-4508-924a-999bb617a621",
       "ioValues": []
     },
     {
       "atomType": "Molecule",
       "name": "Cut in half",
-      "x": 0.6051779935275081,
-      "y": 0.3648960739030023,
+      "x": 0.709277238403452,
+      "y": 0.4688221709006928,
       "uniqueID": "e827a952-77ae-41d3-8da7-3a14cfaa01da",
       "ioValues": [],
       "topLevel": false,
@@ -1941,10 +1941,51 @@
     {
       "atomType": "Difference",
       "name": "Difference",
-      "x": 0.6790722761596548,
-      "y": 0.22863741339491916,
+      "x": 0.7702265372168284,
+      "y": 0.19630484988452657,
       "uniqueID": "c0256327-b6ed-4bb9-92da-80b7791bf398",
       "ioValues": []
+    },
+    {
+      "atomType": "Molecule",
+      "name": "Nose",
+      "x": 0.48975188781014023,
+      "y": 0.489607390300231,
+      "uniqueID": "44c52d61-bf0d-421c-875b-ac6ee8741748",
+      "ioValues": [],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "40c3f720-ae89-4595-b996-f8c09a0dcd0c",
+          "ioValues": []
+        },
+        {
+          "atomType": "RegularPolygon",
+          "name": "RegularPolygon",
+          "x": 0.2626752966558792,
+          "y": 0.3464203233256351,
+          "uniqueID": "f3566ef7-34b6-4c58-96c0-d773f2306498",
+          "ioValues": [
+            {
+              "name": "number of sides",
+              "ioValue": 3,
+              "currentEquation": "3"
+            },
+            {
+              "name": "diameter",
+              "ioValue": 200,
+              "currentEquation": "200"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1,
+      "compiledBom": {}
     }
   ],
   "allConnectors": [
@@ -2175,12 +2216,6 @@
       "ap2Name": "geometry2",
       "ap1ID": "c5e6444c-10b9-4cd5-849d-ee250c495e48",
       "ap2ID": "8687e318-9cd6-4508-924a-999bb617a621"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry1",
-      "ap1ID": "8687e318-9cd6-4508-924a-999bb617a621",
-      "ap2ID": "c0256327-b6ed-4bb9-92da-80b7791bf398"
     },
     {
       "ap1Name": "geometry or number",
