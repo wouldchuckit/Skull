@@ -1064,7 +1064,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "rotate-move-rotate-cut-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-90--200--650-200-95-0-0",
+                "geometry": "rotate-move-rotate-cut-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-180-0-90--200--690-200-95-0-0",
                 "dimension": "3D",
                 "tags": [
                   "Panel"
@@ -1090,7 +1090,7 @@
                 "bom": []
               },
               {
-                "geometry": "rotate-move-rotate-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-90--200--650-200-95-0-0",
+                "geometry": "rotate-move-rotate-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-180-0-90--200--690-200-95-0-0",
                 "dimension": "3D",
                 "tags": [
                   "cutter",
@@ -2355,7 +2355,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "rotate-move-rotate-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-90--200--650-200-95-0-0",
+                "geometry": "rotate-move-rotate-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-180-0-90--200--690-200-95-0-0",
                 "dimension": "3D",
                 "tags": [
                   "cutter",
@@ -3100,8 +3100,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": -650,
-          "currentEquation": "-650"
+          "ioValue": -690,
+          "currentEquation": "-690"
         },
         {
           "name": "zDist",
@@ -3153,7 +3153,8 @@
       "ioValues": [
         {
           "name": "x-axis degrees",
-          "ioValue": 0
+          "ioValue": 180,
+          "currentEquation": "180"
         },
         {
           "name": "y-axis degrees",
