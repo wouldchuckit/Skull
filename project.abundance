@@ -346,7 +346,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "rotate-move-cut-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400-0-90-10",
+                "geometry": "rotate-move-cut-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400-0-90--10",
                 "dimension": "3D",
                 "tags": [
                   "Panel"
@@ -372,7 +372,7 @@
                 "bom": []
               },
               {
-                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400-0-90-10",
+                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400-0-90--10",
                 "dimension": "3D",
                 "tags": [
                   "cutter",
@@ -902,11 +902,11 @@
           }
         },
         {
-          "name": "Shape 14",
+          "name": "Shape 15",
           "ioValue": {
             "geometry": [
               {
-                "geometry": "move-cut-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400",
+                "geometry": "rotate-move-cut-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-200-0-300-180-0-0",
                 "dimension": "3D",
                 "tags": [
                   "Panel"
@@ -932,7 +932,7 @@
                 "bom": []
               },
               {
-                "geometry": "move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400",
+                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-200-0-300-180-0-0",
                 "dimension": "3D",
                 "tags": [
                   "cutter",
@@ -982,11 +982,11 @@
           }
         },
         {
-          "name": "Shape 15",
+          "name": "Shape 16",
           "ioValue": {
             "geometry": [
               {
-                "geometry": "rotate-move-cut-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-200-0-300-180-0-0",
+                "geometry": "rotate-move-cut-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400-10-0-0",
                 "dimension": "3D",
                 "tags": [
                   "Panel"
@@ -1012,7 +1012,7 @@
                 "bom": []
               },
               {
-                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-200-0-300-180-0-0",
+                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400-10-0-0",
                 "dimension": "3D",
                 "tags": [
                   "cutter",
@@ -1187,8 +1187,8 @@
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": -10,
+          "currentEquation": "-10"
         }
       ]
     },
@@ -1636,7 +1636,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400",
+                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400-10-0-0",
                 "dimension": "3D",
                 "tags": [
                   "cutter",
@@ -1852,7 +1852,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400-0-90-10",
+                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400-0-90--10",
                 "dimension": "3D",
                 "tags": [
                   "cutter",
@@ -2960,6 +2960,28 @@
       ],
       "fileTypeVersion": 1,
       "compiledBom": []
+    },
+    {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.23031283710895362,
+      "y": 0.05542725173210161,
+      "uniqueID": "b576c146-8a64-40ca-adc3-6da6b4c00172",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 10,
+          "currentEquation": "10"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -2971,15 +2993,9 @@
     },
     {
       "ap1Name": "geometry",
-      "ap2Name": "Shape 14",
-      "ap1ID": "2ce630b7-a35f-4e73-984b-19e2c83e8668",
-      "ap2ID": "d342bb19-3514-42b1-8f5a-83f3f9eeeb5d"
-    },
-    {
-      "ap1Name": "geometry",
       "ap2Name": "geometry",
       "ap1ID": "2ce630b7-a35f-4e73-984b-19e2c83e8668",
-      "ap2ID": "ac691221-8728-42fa-bb5b-2efc32b3029f"
+      "ap2ID": "b576c146-8a64-40ca-adc3-6da6b4c00172"
     },
     {
       "ap1Name": "geometry",
@@ -3394,6 +3410,18 @@
       "ap2Name": "geometry",
       "ap1ID": "44c52d61-bf0d-421c-875b-ac6ee8741748",
       "ap2ID": "c8722883-f2bc-42ee-948f-af32a6cea31d"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 16",
+      "ap1ID": "b576c146-8a64-40ca-adc3-6da6b4c00172",
+      "ap2ID": "d342bb19-3514-42b1-8f5a-83f3f9eeeb5d"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "b576c146-8a64-40ca-adc3-6da6b4c00172",
+      "ap2ID": "ac691221-8728-42fa-bb5b-2efc32b3029f"
     }
   ],
   "unitsKey": "MM",
