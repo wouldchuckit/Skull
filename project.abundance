@@ -2062,6 +2062,7 @@
       "y": 0.26558891454965355,
       "uniqueID": "81e1bb23-7d05-4d61-8aa5-9d6a62b3b008",
       "ioValues": [],
+      "tag": "cutter",
       "tagIndex": 0
     },
     {
@@ -2071,6 +2072,7 @@
       "y": 0.3510392609699769,
       "uniqueID": "5d15bad1-a3b6-4061-894a-fc78456421c2",
       "ioValues": [],
+      "tag": "cutter",
       "tagIndex": 0
     },
     {
@@ -2080,6 +2082,7 @@
       "y": 0.4457274826789838,
       "uniqueID": "1e012690-bd97-4174-82eb-9a0bb916fa20",
       "ioValues": [],
+      "tag": "cutter",
       "tagIndex": 0
     },
     {
@@ -2089,6 +2092,7 @@
       "y": 0.5450346420323325,
       "uniqueID": "3f18e97b-7126-4ced-be69-352b82d128f2",
       "ioValues": [],
+      "tag": "cutter",
       "tagIndex": 0
     },
     {
@@ -2098,6 +2102,7 @@
       "y": 0.6397228637413395,
       "uniqueID": "cb6769f2-fa9e-4ac2-82c2-df852b0fb7ba",
       "ioValues": [],
+      "tag": "cutter",
       "tagIndex": 0
     },
     {
@@ -2107,6 +2112,7 @@
       "y": 0.7182448036951501,
       "uniqueID": "d76e198a-fda3-48c8-9ed8-3565da379cc7",
       "ioValues": [],
+      "tag": "cutter",
       "tagIndex": 0
     },
     {
@@ -2116,6 +2122,7 @@
       "y": 0.8060046189376444,
       "uniqueID": "b6d47037-9697-4b37-8793-a0f823319f03",
       "ioValues": [],
+      "tag": "cutter",
       "tagIndex": 0
     },
     {
@@ -2125,6 +2132,7 @@
       "y": 0.8960739030023095,
       "uniqueID": "f1935f74-ce57-4d15-8036-a4f74ce82070",
       "ioValues": [],
+      "tag": "cutter",
       "tagIndex": 0
     },
     {
@@ -2134,7 +2142,17 @@
       "y": 0.979214780600462,
       "uniqueID": "d5260a7f-919a-418d-81dd-2eca3f27c940",
       "ioValues": [],
+      "tag": "cutter",
       "tagIndex": 0
+    },
+    {
+      "atomType": "Fusion",
+      "name": "Fusion",
+      "x": 0.7173678532901834,
+      "y": 0.06697459584295612,
+      "uniqueID": "d7559d6f-08c8-4048-84df-cc4c203de5bd",
+      "ioValues": [],
+      "unionType": "Fusion"
     }
   ],
   "allConnectors": [
@@ -2300,7 +2318,12 @@
       "ap1ID": "1da8df22-0a45-48dd-8340-238ad70f76b4",
       "ap2ID": "d342bb19-3514-42b1-8f5a-83f3f9eeeb5d"
     },
-    null,
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "1da8df22-0a45-48dd-8340-238ad70f76b4",
+      "ap2ID": "b6d47037-9697-4b37-8793-a0f823319f03"
+    },
     {
       "ap1Name": "geometry",
       "ap2Name": "geometry",
@@ -2316,6 +2339,12 @@
     {
       "ap1Name": "geometry",
       "ap2Name": "geometry",
+      "ap1ID": "89c5ca32-ee33-4009-af6d-96c4da1fe89f",
+      "ap2ID": "f1935f74-ce57-4d15-8036-a4f74ce82070"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
       "ap1ID": "b61900ec-0ab3-46c1-8801-135ad0a3aa67",
       "ap2ID": "28baf5bf-6fc1-432b-a176-cedd6e6e9847"
     },
@@ -2324,6 +2353,12 @@
       "ap2Name": "Shape 13",
       "ap1ID": "28baf5bf-6fc1-432b-a176-cedd6e6e9847",
       "ap2ID": "d342bb19-3514-42b1-8f5a-83f3f9eeeb5d"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "28baf5bf-6fc1-432b-a176-cedd6e6e9847",
+      "ap2ID": "d5260a7f-919a-418d-81dd-2eca3f27c940"
     },
     {
       "ap1Name": "geometry",
