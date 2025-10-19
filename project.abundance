@@ -1064,7 +1064,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "rotate-move-cut-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10--200-0-200-95-0-0",
+                "geometry": "rotate-move-rotate-cut-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-90--200--650-200-95-0-0",
                 "dimension": "3D",
                 "tags": [
                   "Panel"
@@ -1090,7 +1090,7 @@
                 "bom": []
               },
               {
-                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10--200-0-200-95-0-0",
+                "geometry": "rotate-move-rotate-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-90--200--650-200-95-0-0",
                 "dimension": "3D",
                 "tags": [
                   "cutter",
@@ -2355,7 +2355,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10--200-0-200-95-0-0",
+                "geometry": "rotate-move-rotate-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-90--200--650-200-95-0-0",
                 "dimension": "3D",
                 "tags": [
                   "cutter",
@@ -3100,8 +3100,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": -650,
+          "currentEquation": "-650"
         },
         {
           "name": "zDist",
@@ -3143,6 +3143,29 @@
       "ioValues": [],
       "tag": "cutter",
       "tagIndex": 0
+    },
+    {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.7659115426105717,
+      "y": 0.6720554272517321,
+      "uniqueID": "fecf679b-f690-40d1-b440-1d1e3740f354",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -3564,7 +3587,7 @@
       "ap1Name": "geometry or number",
       "ap2Name": "geometry",
       "ap1ID": "16e4da45-3f9f-4c5e-a888-96310f1fd3e1",
-      "ap2ID": "632fcfdd-f344-4a96-b7cd-0278d9c5bf08"
+      "ap2ID": "fecf679b-f690-40d1-b440-1d1e3740f354"
     },
     {
       "ap1Name": "geometry or number",
@@ -3607,6 +3630,12 @@
       "ap2Name": "Shape 13",
       "ap1ID": "569490c5-57a3-4933-acca-39cc88abfac1",
       "ap2ID": "d7559d6f-08c8-4048-84df-cc4c203de5bd"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "fecf679b-f690-40d1-b440-1d1e3740f354",
+      "ap2ID": "632fcfdd-f344-4a96-b7cd-0278d9c5bf08"
     }
   ],
   "unitsKey": "MM",
