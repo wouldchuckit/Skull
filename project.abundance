@@ -580,6 +580,86 @@
             "tags": [],
             "bom": []
           }
+        },
+        {
+          "name": "Shape 9",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "rotate-move-cut-extrude-polysides-300-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-300-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10--200-0-300-0-140-0",
+                "dimension": "3D",
+                "tags": [
+                  "Panel"
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "rotate-move-move-extrude-polysides-300-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10--200-0-300-0-140-0",
+                "dimension": "3D",
+                "tags": [
+                  "cutter",
+                  "keepout"
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#D9544D",
+                "bom": []
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
         }
       ]
     },
@@ -723,8 +803,8 @@
     {
       "atomType": "Molecule",
       "name": "Panel and cutter",
-      "x": 0.06418554476806904,
-      "y": 0.2956120092378753,
+      "x": 0.02696871628910464,
+      "y": 0.30484988452655887,
       "uniqueID": "16e4da45-3f9f-4c5e-a888-96310f1fd3e1",
       "ioValues": [
         {
@@ -1066,7 +1146,7 @@
     {
       "atomType": "Rotate",
       "name": "Rotate",
-      "x": 0.1855447680690399,
+      "x": 0.18770226537216828,
       "y": 0.6928406466512702,
       "uniqueID": "a46ca38e-6a7a-4d77-979f-1a67899aa4d4",
       "ioValues": [
@@ -1089,8 +1169,8 @@
     {
       "atomType": "ExtractTag",
       "name": "Extract Tag",
-      "x": 0.44983818770226536,
-      "y": 0.44110854503464203,
+      "x": 0.639697950377562,
+      "y": 0.5219399538106235,
       "uniqueID": "8a376d3e-b5b6-4473-8067-520295d12e67",
       "ioValues": [],
       "tagIndex": 0
@@ -1104,15 +1184,41 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": -200,
+          "currentEquation": "-200"
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
+          "ioValue": 300,
+          "currentEquation": "300"
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.1844660194174757,
+      "y": 0.8198614318706698,
+      "uniqueID": "6a85a46a-94fb-459f-b376-de7cefaf193c",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
           "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 140,
+          "currentEquation": "140"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     }
@@ -1248,6 +1354,18 @@
       "ap1Name": "geometry",
       "ap2Name": "Shape 8",
       "ap1ID": "a46ca38e-6a7a-4d77-979f-1a67899aa4d4",
+      "ap2ID": "d342bb19-3514-42b1-8f5a-83f3f9eeeb5d"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "7f8f7b31-2454-49cf-8432-aecadd3c1ecc",
+      "ap2ID": "6a85a46a-94fb-459f-b376-de7cefaf193c"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 9",
+      "ap1ID": "6a85a46a-94fb-459f-b376-de7cefaf193c",
       "ap2ID": "d342bb19-3514-42b1-8f5a-83f3f9eeeb5d"
     }
   ],
