@@ -2765,6 +2765,52 @@
       ],
       "fileTypeVersion": 1,
       "compiledBom": []
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.7384034519956849,
+      "y": 0.7413394919168591,
+      "uniqueID": "19aed801-6f50-4d9a-a920-df926c7651f2",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 300,
+          "currentEquation": "300"
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.8182308522114348,
+      "y": 0.7759815242494226,
+      "uniqueID": "a7569e86-71ea-435f-a37a-f3043e142ade",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 180,
+          "currentEquation": "180"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -3155,6 +3201,12 @@
     {
       "ap1Name": "geometry or number",
       "ap2Name": "geometry",
+      "ap1ID": "16e4da45-3f9f-4c5e-a888-96310f1fd3e1",
+      "ap2ID": "19aed801-6f50-4d9a-a920-df926c7651f2"
+    },
+    {
+      "ap1Name": "geometry or number",
+      "ap2Name": "geometry",
       "ap1ID": "11648e50-c5ad-4cc0-890a-934420d41105",
       "ap2ID": "c5e6444c-10b9-4cd5-849d-ee250c495e48"
     },
@@ -3169,6 +3221,12 @@
       "ap2Name": "geometry",
       "ap1ID": "44c52d61-bf0d-421c-875b-ac6ee8741748",
       "ap2ID": "c8722883-f2bc-42ee-948f-af32a6cea31d"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "19aed801-6f50-4d9a-a920-df926c7651f2",
+      "ap2ID": "a7569e86-71ea-435f-a37a-f3043e142ade"
     }
   ],
   "unitsKey": "MM",
