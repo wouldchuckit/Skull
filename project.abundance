@@ -64,11 +64,6 @@
         {
           "name": "yDist",
           "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 400,
-          "currentEquation": "400"
         }
       ]
     },
@@ -105,7 +100,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "rotate-move-cut-extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400-0-40-0",
+                "geometry": "rotate-move-cut-extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-{\"geometry\":[{\"geometry\":\"cut-extrude-polysides-200-6-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-410-move-extrude-polysides-200-6-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-410-0-0-10\",\"dimension\":\"3D\",\"tags\":[\"Panel\"],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]},{\"geometry\":\"move-extrude-polysides-200-6-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-410-0-0-10\",\"dimension\":\"3D\",\"tags\":[\"cutter\",\"keepout\"],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#D9544D\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-0-40-0",
                 "dimension": "3D",
                 "tags": [
                   "Panel"
@@ -131,7 +126,7 @@
                 "bom": []
               },
               {
-                "geometry": "rotate-move-move-extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400-0-40-0",
+                "geometry": "rotate-move-move-extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-{\"geometry\":[{\"geometry\":\"cut-extrude-polysides-200-6-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-410-move-extrude-polysides-200-6-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-410-0-0-10\",\"dimension\":\"3D\",\"tags\":[\"Panel\"],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]},{\"geometry\":\"move-extrude-polysides-200-6-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-410-0-0-10\",\"dimension\":\"3D\",\"tags\":[\"cutter\",\"keepout\"],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#D9544D\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-0-40-0",
                 "dimension": "3D",
                 "tags": [
                   "cutter",
@@ -558,7 +553,7 @@
       "atomType": "Move",
       "name": "Move",
       "x": 0.1353829557713053,
-      "y": 0.41108545034642036,
+      "y": 0.4226327944572748,
       "uniqueID": "a6eed2d5-3187-44f9-bccd-72f9e8f89f1f",
       "ioValues": [
         {
@@ -567,10 +562,6 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
           "ioValue": 0
         }
       ]
@@ -654,6 +645,24 @@
       "ap2Name": "geometry",
       "ap1ID": "16e4da45-3f9f-4c5e-a888-96310f1fd3e1",
       "ap2ID": "d1aad66b-a25d-4416-bb4b-e0dfe7ee99c8"
+    },
+    {
+      "ap1Name": "geometry or number",
+      "ap2Name": "zDist",
+      "ap1ID": "16e4da45-3f9f-4c5e-a888-96310f1fd3e1",
+      "ap2ID": "d1aad66b-a25d-4416-bb4b-e0dfe7ee99c8"
+    },
+    {
+      "ap1Name": "geometry or number",
+      "ap2Name": "geometry",
+      "ap1ID": "16e4da45-3f9f-4c5e-a888-96310f1fd3e1",
+      "ap2ID": "a6eed2d5-3187-44f9-bccd-72f9e8f89f1f"
+    },
+    {
+      "ap1Name": "geometry or number",
+      "ap2Name": "zDist",
+      "ap1ID": "16e4da45-3f9f-4c5e-a888-96310f1fd3e1",
+      "ap2ID": "a6eed2d5-3187-44f9-bccd-72f9e8f89f1f"
     }
   ],
   "unitsKey": "MM",
