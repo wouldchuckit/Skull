@@ -978,6 +978,86 @@
             "tags": [],
             "bom": []
           }
+        },
+        {
+          "name": "Shape 15",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "rotate-move-cut-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-200-0-300-180-0-0",
+                "dimension": "3D",
+                "tags": [
+                  "Panel"
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              },
+              {
+                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-200-0-300-180-0-0",
+                "dimension": "3D",
+                "tags": [
+                  "cutter",
+                  "keepout"
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#D9544D",
+                "bom": []
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
         }
       ]
     },
@@ -2775,11 +2855,13 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 200,
+          "currentEquation": "200"
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
@@ -3227,6 +3309,12 @@
       "ap2Name": "geometry",
       "ap1ID": "19aed801-6f50-4d9a-a920-df926c7651f2",
       "ap2ID": "a7569e86-71ea-435f-a37a-f3043e142ade"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 15",
+      "ap1ID": "a7569e86-71ea-435f-a37a-f3043e142ade",
+      "ap2ID": "d342bb19-3514-42b1-8f5a-83f3f9eeeb5d"
     }
   ],
   "unitsKey": "MM",
