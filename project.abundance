@@ -32,8 +32,8 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.25674217907227614,
-      "y": 0.23556581986143188,
+      "x": 0.13700107874865156,
+      "y": 0.11085450346420322,
       "uniqueID": "2ce630b7-a35f-4e73-984b-19e2c83e8668",
       "ioValues": [
         {
@@ -53,8 +53,8 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.2551240560949299,
-      "y": 0.6004618937644342,
+      "x": 0.13807982740021574,
+      "y": 0.2632794457274827,
       "uniqueID": "d1aad66b-a25d-4416-bb4b-e0dfe7ee99c8",
       "ioValues": [
         {
@@ -67,7 +67,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 200
+          "ioValue": 400,
+          "currentEquation": "400"
         }
       ]
     },
@@ -104,7 +105,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "rotate-move-cut-extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-200-0-40-0",
+                "geometry": "rotate-move-cut-extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400-0-40-0",
                 "dimension": "3D",
                 "tags": [
                   "Panel"
@@ -130,7 +131,7 @@
                 "bom": []
               },
               {
-                "geometry": "rotate-move-move-extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-200-0-40-0",
+                "geometry": "rotate-move-move-extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400-0-40-0",
                 "dimension": "3D",
                 "tags": [
                   "cutter",
@@ -264,8 +265,8 @@
     {
       "atomType": "Molecule",
       "name": "Panel and cutter",
-      "x": 0.1402373247033441,
-      "y": 0.3233256351039261,
+      "x": 0.06418554476806904,
+      "y": 0.2956120092378753,
       "uniqueID": "16e4da45-3f9f-4c5e-a888-96310f1fd3e1",
       "ioValues": [
         {
@@ -552,6 +553,69 @@
       ],
       "fileTypeVersion": 1,
       "compiledBom": []
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.1353829557713053,
+      "y": 0.41108545034642036,
+      "uniqueID": "a6eed2d5-3187-44f9-bccd-72f9e8f89f1f",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.1353829557713053,
+      "y": 0.584295612009238,
+      "uniqueID": "a7e8f093-ee45-4c5e-8869-0ad356f1a55a",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.1343042071197411,
+      "y": 0.7413394919168591,
+      "uniqueID": "f68d4ffd-91d8-4d8a-937e-bbee485da384",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
