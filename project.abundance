@@ -584,7 +584,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "rotate-move-cut-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400-0--60-40",
+                "geometry": "rotate-move-cut-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-450-0--60-40",
                 "dimension": "3D",
                 "tags": [
                   "Panel"
@@ -610,7 +610,7 @@
                 "bom": []
               },
               {
-                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400-0--60-40",
+                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-450-0--60-40",
                 "dimension": "3D",
                 "tags": [
                   "cutter",
@@ -824,7 +824,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "rotate-move-cut-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-300-0--120-80",
+                "geometry": "rotate-move-cut-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-350-0--120-80",
                 "dimension": "3D",
                 "tags": [
                   "Panel"
@@ -850,7 +850,7 @@
                 "bom": []
               },
               {
-                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-300-0--120-80",
+                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-350-0--120-80",
                 "dimension": "3D",
                 "tags": [
                   "cutter",
@@ -1209,7 +1209,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 400
+          "ioValue": 450,
+          "currentEquation": "450"
         }
       ]
     },
@@ -1336,7 +1337,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 300
+          "ioValue": 350,
+          "currentEquation": "350"
         }
       ]
     },
@@ -2537,7 +2539,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-400-0--60-40",
+                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-450-0--60-40",
                 "dimension": "3D",
                 "tags": [
                   "cutter",
@@ -2699,7 +2701,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-300-0--120-80",
+                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-0-0-350-0--120-80",
                 "dimension": "3D",
                 "tags": [
                   "cutter",
