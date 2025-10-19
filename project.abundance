@@ -7,8 +7,8 @@
   "ioValues": [
     {
       "name": "panel thick",
-      "ioValue": 30,
-      "currentEquation": "30"
+      "ioValue": 10,
+      "currentEquation": "10"
     }
   ],
   "topLevel": true,
@@ -24,13 +24,13 @@
     {
       "atomType": "Molecule",
       "name": "Panel and cutter",
-      "x": 0.13754045307443366,
-      "y": 0.7482678983833718,
+      "x": 0.09762675296655879,
+      "y": 0.7251732101616628,
       "uniqueID": "16e4da45-3f9f-4c5e-a888-96310f1fd3e1",
       "ioValues": [
         {
           "name": "Input (1)",
-          "ioValue": 30
+          "ioValue": 10
         }
       ],
       "topLevel": false,
@@ -71,7 +71,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 30
+              "ioValue": 10
             }
           ]
         },
@@ -150,7 +150,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30",
+                "geometry": "extrude-polysides-200-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
                 "dimension": "3D",
                 "tags": [
                   "Panel"
