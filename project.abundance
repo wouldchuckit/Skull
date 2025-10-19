@@ -4,7 +4,12 @@
   "x": 0,
   "y": 0,
   "uniqueID": "45c47fe6-d8da-4cdb-a6d2-b65d9f78f880",
-  "ioValues": [],
+  "ioValues": [
+    {
+      "name": "Input (1)",
+      "ioValue": 10
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -59,8 +64,8 @@
     {
       "atomType": "RegularPolygon",
       "name": "RegularPolygon",
-      "x": 0.1267529665587918,
-      "y": 0.628175519630485,
+      "x": 0.2011866235167206,
+      "y": 0.6836027713625865,
       "uniqueID": "40b79c44-acea-4f75-aad0-fe93678cb94f",
       "ioValues": [
         {
@@ -131,8 +136,8 @@
     {
       "atomType": "Extrude",
       "name": "Extrude",
-      "x": 0.174217907227616,
-      "y": 0.39953810623556585,
+      "x": 0.25134843581445526,
+      "y": 0.5127020785219399,
       "uniqueID": "eff9bf65-8ae2-46d6-bbab-52bf7ca64847",
       "ioValues": [
         {
@@ -140,6 +145,15 @@
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "name": "Input (1)",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
+      "uniqueID": "f1746855-b9df-42d0-af30-1e19be1d2436",
+      "ioValues": [],
+      "type": "number"
     }
   ],
   "allConnectors": [
@@ -148,12 +162,6 @@
       "ap2Name": "geometry",
       "ap1ID": "b6af022d-f744-4c54-8818-1a910872f041",
       "ap2ID": "c8012a12-9846-468e-84f1-082d1a93d7c4"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "40b79c44-acea-4f75-aad0-fe93678cb94f",
-      "ap2ID": "4a606ab0-32c4-474b-afc9-5528f2756c44"
     },
     {
       "ap1Name": "geometry",
@@ -172,6 +180,12 @@
       "ap2Name": "geometry1",
       "ap1ID": "c8012a12-9846-468e-84f1-082d1a93d7c4",
       "ap2ID": "3cd6d818-1422-48cd-8a83-24f6208125af"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "eff9bf65-8ae2-46d6-bbab-52bf7ca64847",
+      "ap2ID": "4a606ab0-32c4-474b-afc9-5528f2756c44"
     }
   ],
   "unitsKey": "MM",
