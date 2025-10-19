@@ -1767,8 +1767,8 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 800,
-              "currentEquation": "800"
+              "ioValue": 1000,
+              "currentEquation": "1000"
             }
           ]
         },
@@ -1827,17 +1827,18 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 130,
-          "currentEquation": "130"
+          "ioValue": -100,
+          "currentEquation": "-100"
         },
         {
           "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": -100,
+          "currentEquation": "-100"
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
