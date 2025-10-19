@@ -16,64 +16,130 @@
       "ioValues": []
     },
     {
-      "atomType": "RegularPolygon",
-      "name": "RegularPolygon",
-      "x": 0.3122977346278317,
-      "y": 0.7422434367541766,
-      "uniqueID": "6287e770-e7c9-4b3f-acc2-fa07606ea7e0",
-      "ioValues": [
-        {
-          "name": "number of sides",
-          "ioValue": 3,
-          "currentEquation": "3"
-        },
-        {
-          "name": "diameter",
-          "ioValue": 10,
-          "currentEquation": "10"
-        }
-      ]
-    },
-    {
-      "atomType": "Extrude",
-      "name": "Extrude",
-      "x": 0.38888888888888884,
-      "y": 0.7398568019093079,
-      "uniqueID": "a70aa4e9-fe34-40b3-99d9-a44f18dd5626",
-      "ioValues": [
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
-      "atomType": "Extrude",
-      "name": "Extrude",
-      "x": 0.5026968716289105,
-      "y": 0.41288782816229114,
-      "uniqueID": "9822c9c4-74bd-4876-9584-ce93820b07be",
-      "ioValues": [
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
       "atomType": "Rectangle",
       "name": "Rectangle",
-      "x": 0.6623516720604099,
-      "y": 0.3054892601431981,
+      "x": 0.27238403451995685,
+      "y": 0.19630484988452657,
       "uniqueID": "b6af022d-f744-4c54-8818-1a910872f041",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10
+          "ioValue": 100,
+          "currentEquation": "100"
         },
         {
           "name": "y length",
-          "ioValue": 10
+          "ioValue": 100,
+          "currentEquation": "100"
+        }
+      ]
+    },
+    {
+      "atomType": "Loft",
+      "name": "Loft",
+      "x": 0.40560949298813376,
+      "y": 0.4364896073903002,
+      "uniqueID": "8f0f0dba-6cd5-4e6b-9db9-3f7b7dd061e4",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "rectangle-100-100",
+            "dimension": "2D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": {
+            "geometry": "rotate-polysides-50-6-0-0-0",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                -0.9848077530122081,
+                0.17364817766693044
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
+        }
+      ],
+      "closedSelection": 0
+    },
+    {
+      "atomType": "RegularPolygon",
+      "name": "RegularPolygon",
+      "x": 0.24487594390507011,
+      "y": 0.6697459584295612,
+      "uniqueID": "40b79c44-acea-4f75-aad0-fe93678cb94f",
+      "ioValues": [
+        {
+          "name": "number of sides",
+          "ioValue": 6,
+          "currentEquation": "6"
+        },
+        {
+          "name": "diameter",
+          "ioValue": 100,
+          "currentEquation": "100"
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.3651564185544768,
+      "y": 0.7736720554272518,
+      "uniqueID": "4a606ab0-32c4-474b-afc9-5528f2756c44",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 80,
+          "currentEquation": "80"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
         }
       ]
     }
@@ -81,15 +147,21 @@
   "allConnectors": [
     {
       "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "6287e770-e7c9-4b3f-acc2-fa07606ea7e0",
-      "ap2ID": "a70aa4e9-fe34-40b3-99d9-a44f18dd5626"
+      "ap2Name": "Shape 1",
+      "ap1ID": "b6af022d-f744-4c54-8818-1a910872f041",
+      "ap2ID": "8f0f0dba-6cd5-4e6b-9db9-3f7b7dd061e4"
     },
     {
       "ap1Name": "geometry",
       "ap2Name": "geometry",
-      "ap1ID": "a70aa4e9-fe34-40b3-99d9-a44f18dd5626",
-      "ap2ID": "9822c9c4-74bd-4876-9584-ce93820b07be"
+      "ap1ID": "40b79c44-acea-4f75-aad0-fe93678cb94f",
+      "ap2ID": "4a606ab0-32c4-474b-afc9-5528f2756c44"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 3",
+      "ap1ID": "4a606ab0-32c4-474b-afc9-5528f2756c44",
+      "ap2ID": "8f0f0dba-6cd5-4e6b-9db9-3f7b7dd061e4"
     }
   ],
   "unitsKey": "MM",
