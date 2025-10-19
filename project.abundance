@@ -2215,6 +2215,60 @@
             "tags": [],
             "bom": []
           }
+        },
+        {
+          "name": "Shape 12",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "rotate-move-move-extrude-polysides-450-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-410-0-0-10-200-0-300-180-0-0",
+                "dimension": "3D",
+                "tags": [
+                  "cutter",
+                  "keepout"
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#D9544D",
+                "bom": []
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
         }
       ],
       "unionType": "Fusion"
@@ -2849,8 +2903,8 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.7384034519956849,
-      "y": 0.7413394919168591,
+      "x": 0.25026968716289105,
+      "y": 0.833718244803695,
       "uniqueID": "19aed801-6f50-4d9a-a920-df926c7651f2",
       "ioValues": [
         {
@@ -2873,8 +2927,8 @@
     {
       "atomType": "Rotate",
       "name": "Rotate",
-      "x": 0.8182308522114348,
-      "y": 0.7759815242494226,
+      "x": 0.28640776699029125,
+      "y": 0.8314087759815243,
       "uniqueID": "a7569e86-71ea-435f-a37a-f3043e142ade",
       "ioValues": [
         {
@@ -2893,6 +2947,16 @@
           "currentEquation": "0"
         }
       ]
+    },
+    {
+      "atomType": "ExtractTag",
+      "name": "Extract Tag",
+      "x": 0.6941747572815533,
+      "y": 0.9491916859122402,
+      "uniqueID": "5a4f6b2d-8dc5-482f-b585-09a882166d1f",
+      "ioValues": [],
+      "tag": "cutter",
+      "tagIndex": 0
     }
   ],
   "allConnectors": [
@@ -3315,6 +3379,18 @@
       "ap2Name": "Shape 15",
       "ap1ID": "a7569e86-71ea-435f-a37a-f3043e142ade",
       "ap2ID": "d342bb19-3514-42b1-8f5a-83f3f9eeeb5d"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "a7569e86-71ea-435f-a37a-f3043e142ade",
+      "ap2ID": "5a4f6b2d-8dc5-482f-b585-09a882166d1f"
+    },
+    {
+      "ap1Name": "output",
+      "ap2Name": "Shape 12",
+      "ap1ID": "5a4f6b2d-8dc5-482f-b585-09a882166d1f",
+      "ap2ID": "d7559d6f-08c8-4048-84df-cc4c203de5bd"
     }
   ],
   "unitsKey": "MM",
