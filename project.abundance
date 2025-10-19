@@ -1448,15 +1448,18 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -100
+          "ioValue": -100,
+          "currentEquation": "-100"
         },
         {
           "name": "yDist",
-          "ioValue": -100
+          "ioValue": -150,
+          "currentEquation": "-150"
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
@@ -2627,7 +2630,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 120
+              "ioValue": 200,
+              "currentEquation": "200"
             }
           ]
         },
@@ -2952,7 +2956,7 @@
       "atomType": "ExtractTag",
       "name": "Extract Tag",
       "x": 0.6941747572815533,
-      "y": 0.9491916859122402,
+      "y": 0.8290993071593533,
       "uniqueID": "5a4f6b2d-8dc5-482f-b585-09a882166d1f",
       "ioValues": [],
       "tag": "cutter",
