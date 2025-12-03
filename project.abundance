@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "panel thick",
-      "ioValue": 30,
-      "currentEquation": "30"
+      "ioValue": 30
     }
   ],
   "topLevel": true,
@@ -1551,7 +1550,7 @@
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.16499999999999998,
+          "y": 0.176,
           "uniqueID": "0e3bc774-5aa2-4ed6-9369-725cb1f93029",
           "name": "diameter",
           "type": "number"
